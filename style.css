@@ -1,1 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
 
+body
+{
+    font-family: sans-serif;
+}
+
+main
+{
+    background-color:  #ffffff;
+}
+
+/*--------------nav-bar----------------*/
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar
+{
+    background-image: linear-gradient(to right, #f3f1de, #f4f8bf);
+    padding: 0 !important;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    color: rgb(48, 48, 48) !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
