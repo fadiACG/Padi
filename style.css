@@ -99,3 +99,40 @@ main
     height: 100px;
     margin-top: 20px;
 }
+
+.services
+{
+    padding: 20px;
+}
+
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+
+}
+
+.title::before
+{
+    content: '';
+    background: #f4f8bf;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+#services .contact-btn
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #f3f1de, #f4f8bf);
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    font-weight: bold;
+}
