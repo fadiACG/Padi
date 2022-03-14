@@ -46,3 +46,56 @@ main
 {
     outline: none !important;
 }
+
+/*--------------home-banner----------------*/
+
+#banner
+{
+    background-image: linear-gradient(to right, #f3f1de, #f4f8bf);
+    color: rgb(48, 48, 48);
+    padding-top: 5%;
+}
+
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.catch-phrase
+{
+    margin-left: 3px;
+}
+
+.apply-btn
+{
+    width: 45px;
+    margin: 20px;
+    
+}
+
+#banner a
+{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
+.bottom-img
+{
+    width: 100%;
+}
+
+/*--------------home-services----------------*/
+
+#services
+{
+    padding: 80px 0;
+}
+
+.service-img
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
