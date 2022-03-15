@@ -136,3 +136,104 @@ main
     color: rgb(48, 48, 48);
     font-weight: bold;
 }
+
+/*------------properties-------------*/
+
+.property-carousel h5
+{
+    border: black;
+}
+
+.property-carousel p
+{
+    color: black;
+}
+
+.property-carousel
+{
+    padding: 20px;
+}
+
+
+
+#property-carousel .availability-btn
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #f3f1de, #f4f8bf);
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    font-weight: bold;
+}
+
+/*-------------about-------------*/
+
+#about-us
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 120px;
+}
+
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-left: 130px;
+}
+
+#about-us ul li
+{
+    margin: 15px 0;
+}
+
+#about-us ul
+{
+    margin-left: 120px;
+}
+
+/*----------creators----------*/
+#creators
+{
+    background: #fff;
+    padding: 80px 0;
+}
+
+.creator-img
+{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.creators
+{
+    padding: 20px;
+}
+
+.creators h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+
+}
+
+/*--------------reviews----------------*/
+
+#reviews
+{
+    margin: 100px 0;
+}
+
+.reviews
+{
+    border-left: 4px solid #f4f8bf;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
