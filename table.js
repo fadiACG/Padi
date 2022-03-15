@@ -16,3 +16,12 @@ function addRow() {
         alert("Please fill all the required fields.");
     }
 }
+
+function removeRow(row) {
+    row.closest('tr').remove();
+}
+
+function sort_by_name()
+{
+    $("#propertyTable").tablesorter();
+}
