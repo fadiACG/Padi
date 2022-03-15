@@ -14,3 +14,73 @@
     <script src="table.js"></script>
 
 </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.PNG" alt="" width="100" height="65" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="properties.html">Properties</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="property-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#property-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#property-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#property-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/edge.png" class="d-block w-100" alt="The Edge">
+                    <div class="carousel-caption d-none d-md-block bg-dark rounded">
+                        <h5>The Edge</h5>
+                        <p>A large apartment complex located in Kallithea, Greece. The edge is comprised of 31 units that go up to 100SQM.</p>
+                        <a class="availability-btn" href="https://www.estiadevelopments.com/project/the-edge/" role="button">Check Availability</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/evlogia.png" class="d-block w-100 " alt="Evlogia">
+                    <div class="carousel-caption d-none d-md-block bg-dark rounded">
+                        <h5>Evlogia Luxury Apartments</h5>
+                        <p>Evlogia apartments follows a minimalistic style. Located in Chalandri, this property is perfect for the holidays.</p>
+                        <a class="availability-btn" href="https://www.mouzenidis.com/en-us/hotel/greek-pride-evlogia-apartments" role="button">Check Availability</a>                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/noera.png" class="d-block w-100" alt="Villa Noera">
+                    <div class="carousel-caption d-none d-md-block bg-dark rounded">
+                        <h5>Villa Noera</h5>
+                        <p>One of Mykonos' most beautiful villas. Made up of 7 bedrooms, Villa Noera can take up to 16 guests.</p>
+                        <a class="availability-btn" href="https://www.whitekeyvillas.com/greece/mykonos-luxury-villa-noera" role="button">Check Availability</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#property-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#property-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
